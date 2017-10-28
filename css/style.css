@@ -55,8 +55,8 @@ body {
     max-width: 1920px;
     margin:0 auto;
 }
-a.bg-build {
-    display: block;
+a.bg-build-mobil {
+    display: none; /* cambiado con js*/
     min-width: 100%;
     min-height: 100vh;
     margin-top: -5vh;
@@ -64,6 +64,29 @@ a.bg-build {
     background-size: contain;
     transition: 400ms ease-out;
 }
-a.bg-build:hover {
-    transform: scale(1.025)
+a.bg-build-mobil:hover {
+    transform: scale(1.25)
+}
+
+/* Video background */
+#video_background { 
+	/*position: absolute; 
+	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: 100%; 
+	height: auto; 
+	z-index: -1000; 
+    overflow: hidden; 
+    */
+
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    z-index: -1;
+    border: 1px solid greenyellow;
 }
