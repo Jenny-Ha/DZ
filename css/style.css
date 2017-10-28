@@ -65,7 +65,7 @@ a.bg-build-mobil {
     transition: 400ms ease-out;
 }
 a.bg-build-mobil:hover {
-    transform: scale(1.25)
+    transform: scale(1.1)
 }
 
 /* Video background */
