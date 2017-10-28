@@ -62,7 +62,7 @@ a.bg-build {
     margin-top: -5vh;
     background: url("../img/diegozamudio-web.jpg") center center no-repeat;
     background-size: contain;
-    transition: 400ms ease-in-out;
+    transition: 400ms ease-out;
 }
 a.bg-build:hover {
     transform: scale(1.05)
